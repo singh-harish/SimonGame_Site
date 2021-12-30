@@ -38,6 +38,10 @@ function animatePress(currentColor){
   }, 100);
 }
 
+function checkAnswer(currentLevel){
+  
+}
+
 $(document).keypress(function(){
   $("#level-title").text("Level "+level);
   nextSequence();
